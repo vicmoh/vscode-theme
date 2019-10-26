@@ -129,6 +129,6 @@
             "welcomePage.buttonHoverBackground": "#000000",
             "editorBracketMatch.border": "#000000",
             "editorOverviewRuler.bracketMatchForeground": "#000000",
-        },
-    },
+        }
+    }
 }
