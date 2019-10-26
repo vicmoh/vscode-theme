@@ -57,7 +57,6 @@
             "inputOption.activeBorder": "#ff0000",
             "inputOption.activeBackground": "#222222",
             "editor.findMatchBorder": "#ffff00",
-            "editor.wordHighlightStrongBorder": "#ff0000",
             "settings.textInputBackground": "#000000",
             "settings.textInputBorder": "#000000",
             "dropdown.background": "#000000",
