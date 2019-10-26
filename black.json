@@ -1,16 +1,28 @@
 {
+    "C_Cpp.clang_format_style": "Google",
+    "editor.renderIndentGuides": false,
+    "workbench.colorTheme": "Monokai",
     "workbench.colorCustomizations": {
         "[Monokai]": {
             "menu.background": "#000000",
             "statusBar.background": "#000000",
             "sideBar.background": "#000000",
             "sideBarSectionHeader.background": "#000000",
+            "list.activeSelectionBackground": "#222222",
+            "list.warningForeground": "#ffbb00",
+            "list.errorForeground": "#ff0000",
+            "list.focusBackground": "#222222",
+            "list.inactiveSelectionBackground": "#222222",
             "panel.background": "#000000",
             "editor.background": "#000000",
+            "editor.lineHighlightBackground": "#222222",
             "editorGroupHeader.tabsBackground": "#000000",
             "activityBar.background": "#000000",
             "tab.inactiveBackground": "#000000",
-            "tab.activeBackground": "#222222"
+            "tab.activeBackground": "#222222",
+            "tab.activeBorder": "#ff0000",
+            "minimap.selectionHighlight": "#ff0000",
+            "input.background": "#000000"
         }
     }
 }
