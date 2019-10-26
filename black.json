@@ -2,10 +2,28 @@
     "C_Cpp.clang_format_style": "Google",
     "editor.renderIndentGuides": false,
     "workbench.colorTheme": "Monokai",
-    "editor.fontWeight": "bold",
+    "editor.fontWeight": "normal",
     "editor.tokenColorCustomizations": {
         "[Monokai]": {
-            "comments": "#333333"
+            "comments": "#333333",
+            "textMateRules": [
+                {
+                    "scope": "entity.name.function",
+                    "settings": {}
+                },
+                {
+                    "scope": "entity.name.type",
+                    "settings": {
+                        "fontStyle": "italic bold underline"
+                    }
+                },
+                {
+                    "scope": "keyword, variable.language.this",
+                    "settings": {
+                        "fontStyle": "bold"
+                    }
+                }
+            ]
         }
     },
     "workbench.colorCustomizations": {
