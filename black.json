@@ -3,10 +3,12 @@
     "editor.renderIndentGuides": false,
     "workbench.colorTheme": "Monokai",
     "editor.fontWeight": "bold",
+    "editor.tokenColorCustomizations": {
+        "[Monokai]": {
+            "comments": "#333333"
+        }
+    },
     "workbench.colorCustomizations": {
-        "editor.tokenColorCustomizations": {
-            "comments": "#222222"
-        },
         "[Monokai]": {
             "foreground": "#dddddd",
             "menu.background": "#000000",
