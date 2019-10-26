@@ -4,17 +4,24 @@
     "workbench.colorTheme": "Monokai",
     "editor.fontWeight": "bold",
     "workbench.colorCustomizations": {
+        "editor.tokenColorCustomizations": {
+            "comments": "#222222"
+        },
         "[Monokai]": {
+            "foreground": "#dddddd",
             "menu.background": "#000000",
             "statusBar.background": "#000000",
             "sideBar.background": "#000000",
             "sideBarSectionHeader.background": "#000000",
+            "sideBar.foreground": "#555555",
+            "list.activeSelectionForeground": "#dddddd",
+            "list.inactiveSelectionForeground": "#dddddd",
             "list.warningForeground": "#ffbb00",
             "list.errorForeground": "#ff0000",
-            "list.inactiveSelectionBackground": "#222222",
-            "list.activeSelectionBackground": "#222222",
-            "list.hoverBackground": "#222222",
-            "list.focusBackground": "#222222",
+            "list.inactiveSelectionBackground": "#111111",
+            "list.activeSelectionBackground": "#111111",
+            "list.hoverBackground": "#111111",
+            "list.focusBackground": "#111111",
             "panel.background": "#000000",
             "editor.background": "#000000",
             "editor.lineHighlightBackground": "#111111",
@@ -39,7 +46,8 @@
             "editorSuggestWidget.background": "#000000",
             "editorSuggestWidget.border": "#222222",
             "editorSuggestWidget.highlightForeground": "#999999",
-            "foreground": "#dddddd"
+            "editorLineNumber.foreground": "#555555",
+            "editorLineNumber.activeForeground": "#999999"
         }
     }
 }
