@@ -42,9 +42,9 @@
             "list.activeSelectionBackground": "#111111",
             "list.hoverBackground": "#111111",
             "list.focusBackground": "#111111",
-            "scrollbarSlider.background": "#111111",
-            "scrollbarSlider.activeBackground": "#111111",
-            "scrollbarSlider.hoverBackground": "#111111",
+            "scrollbarSlider.background": "#50505080",
+            "scrollbarSlider.activeBackground": "#50505080",
+            "scrollbarSlider.hoverBackground": "#50505080",
             "panel.background": "#000000",
             "editor.background": "#000000",
             "editor.lineHighlightBackground": "#111111",
@@ -68,8 +68,16 @@
             "editorSuggestWidget.background": "#000000",
             "editorSuggestWidget.border": "#222222",
             "editorSuggestWidget.highlightForeground": "#999999",
+            "editorWidget.background": "#222222",
+            "editorWidget.foreground": "#dddddd",
+            "editorHoverWidget.background": "#222222",
+            "editorHoverWidget.border": "#222222",
             "editorLineNumber.foreground": "#555555",
-            "editorLineNumber.activeForeground": "#999999"
+            "editorLineNumber.activeForeground": "#999999",
+            "button.background": "#0099ff",
+            "button.foreground": "#dddddd",
+            "terminal.foreground": "#dddddd",
+            "terminal.border": "#dddddd"
         }
     }
 }
