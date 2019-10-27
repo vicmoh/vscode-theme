@@ -76,6 +76,14 @@
             "editorLineNumber.activeForeground": "#999999",
             "button.background": "#0099ff",
             "button.foreground": "#dddddd",
+            "panelTitle.activeBorder": "#ff0000",
+            "panelTitle.activeForeground": "#dddddd",
+            "panelTitle.inactiveForeground": "#999999",
+            "panelInput.border": "#999999",
+            "panel.border": "#000000",
+            "panel.dropBackground": "#111111",
+            "badge.background": "#a00000",
+            "badge.foreground": "#dddddd",
             "terminal.foreground": "#dddddd",
             "terminal.border": "#dddddd"
         }
