@@ -31,6 +31,7 @@
             "foreground": "#dddddd",
             "menu.background": "#000000",
             "statusBar.background": "#000000",
+            "statusBar.debuggingBackground": "#a00000",
             "sideBar.background": "#000000",
             "sideBarSectionHeader.background": "#000000",
             "sideBar.foreground": "#555555",
