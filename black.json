@@ -1,7 +1,8 @@
 {
     "C_Cpp.clang_format_style": "Google",
-    "editor.renderIndentGuides": false,
     "workbench.colorTheme": "Monokai",
+    "editor.renderIndentGuides": true,
+    "editor.highlightActiveIndentGuide": true,
     "editor.fontWeight": "normal",
     "editor.tokenColorCustomizations": {
         "[Monokai]": {
@@ -28,6 +29,7 @@
     },
     "workbench.colorCustomizations": {
         "[Monokai]": {
+            "editorIndentGuide.background": "#111111",
             "foreground": "#dddddd",
             "menu.background": "#000000",
             "statusBar.background": "#000000",
@@ -88,5 +90,6 @@
             "terminal.foreground": "#dddddd",
             "terminal.border": "#dddddd"
         }
-    }
+    },
+    "dart.closingLabels": false
 }
