@@ -35,7 +35,7 @@
     },
     "workbench.colorCustomizations": {
         "[Monokai]": {
-            "focusBorder": "#aaaa00",
+            "focusBorder": "#555555",
             "contrastBorder": "#000000",
             "window.activeBorder": "#000000",
             "breadcrumb.foreground": "#555555",
@@ -106,7 +106,7 @@
     },
     "dart.closingLabels": false,
     "workbench.colorTheme": "Monokai",
-    "breadcrumbs.enabled": false,
+    "breadcrumbs.enabled": true,
     "workbench.activityBar.visible": true,
     "diffEditor.ignoreTrimWhitespace": true
 }
