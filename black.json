@@ -1,21 +1,27 @@
 {
     "C_Cpp.clang_format_style": "Google",
-    "workbench.colorTheme": "Monokai",
     "editor.renderIndentGuides": true,
     "editor.highlightActiveIndentGuide": true,
     "editor.fontWeight": "normal",
     "editor.tokenColorCustomizations": {
         "[Monokai]": {
-            "comments": "#444444",
+            "comments": "#333333",
             "textMateRules": [
                 {
                     "scope": "entity.name.function",
                     "settings": {}
                 },
                 {
+                    "scope": "variable",
+                    "settings": {
+                        "foreground": "#ffffff"
+                    }
+                },
+                {
                     "scope": "entity.name.type",
                     "settings": {
-                        "fontStyle": "italic bold underline"
+                        "fontStyle": "italic bold",
+                        "foreground": "#FF00FF"
                     }
                 },
                 {
@@ -29,6 +35,10 @@
     },
     "workbench.colorCustomizations": {
         "[Monokai]": {
+            "focusBorder": "#aaaa00",
+            "contrastBorder": "#000000",
+            "window.activeBorder": "#000000",
+            "breadcrumb.foreground": "#555555",
             "editorIndentGuide.background": "#111111",
             "foreground": "#dddddd",
             "menu.background": "#000000",
@@ -36,7 +46,7 @@
             "statusBar.debuggingBackground": "#a00000",
             "sideBar.background": "#000000",
             "sideBarSectionHeader.background": "#000000",
-            "sideBar.foreground": "#555555",
+            "sideBar.foreground": "#333333",
             "list.activeSelectionForeground": "#dddddd",
             "list.inactiveSelectionForeground": "#dddddd",
             "list.warningForeground": "#ffbb00",
@@ -57,9 +67,10 @@
             "tab.activeBackground": "#111111",
             "tab.activeBorder": "#a00000",
             "minimap.selectionHighlight": "#a00000",
+            "input.foreground": "#ffffff",
             "input.background": "#000000",
             "input.border": "#000000",
-            "input.placeholderForeground": "#000000",
+            "input.placeholderForeground": "#555555",
             "inputOption.activeBorder": "#a00000",
             "inputOption.activeBackground": "#222222",
             "editor.findMatchBorder": "#ffff00",
@@ -75,7 +86,7 @@
             "editorWidget.foreground": "#dddddd",
             "editorHoverWidget.background": "#222222",
             "editorHoverWidget.border": "#222222",
-            "editorLineNumber.foreground": "#555555",
+            "editorLineNumber.foreground": "#333333",
             "editorLineNumber.activeForeground": "#999999",
             "button.background": "#0099ff",
             "button.foreground": "#dddddd",
@@ -91,5 +102,9 @@
             "terminal.border": "#dddddd"
         }
     },
-    "dart.closingLabels": false
+    "dart.closingLabels": false,
+    "workbench.colorTheme": "Monokai",
+    "breadcrumbs.enabled": false,
+    "workbench.activityBar.visible": true,
+    "diffEditor.ignoreTrimWhitespace": true
 }
