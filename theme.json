@@ -1,4 +1,5 @@
 {
+    "C_Cpp.updateChannel": "Insiders",
     "C_Cpp.clang_format_style": "Google",
     "editor.renderIndentGuides": true,
     "editor.highlightActiveIndentGuide": true,
@@ -33,6 +34,7 @@
             ]
         }
     },
+    "editor.tabSize": 2,
     "workbench.colorCustomizations": {
         "[Monokai]": {
             "focusBorder": "#555555",
@@ -106,7 +108,14 @@
     },
     "dart.closingLabels": false,
     "workbench.colorTheme": "Monokai",
-    "breadcrumbs.enabled": true,
     "workbench.activityBar.visible": true,
-    "diffEditor.ignoreTrimWhitespace": true
+    "workbench.statusBar.visible": true,
+    "editor.renderControlCharacters": true,
+    "editor.minimap.enabled": true,
+    "diffEditor.ignoreTrimWhitespace": true,
+    "breadcrumbs.enabled": true,
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "window.zoomLevel": 0,
+    "editor.suggestSelection": "recentlyUsed"
 }
