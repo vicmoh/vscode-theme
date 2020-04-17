@@ -24,9 +24,9 @@ export NVM_DIR="/Users/vic/.nvm"
 # export PS1="\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;1m\]\w\[\033[m\]\$ "
 
 # Folder bash color.
-# export CLICOLOR=1
+export CLICOLOR=1
 # export LSCOLORS=ExFxBxDxCxegedabagacad
-# export LSCOLORS=GxFxCxDxBxegedabagaced
+export LSCOLORS=GxFxCxDxBxegedabagaced
 alias ls='ls -GFh'
 
 # For bash color with git branch.
