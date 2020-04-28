@@ -1,16 +1,11 @@
 [
   {
-    "key": "ctrl+alt+m",
+    "key": "cmd+j",
     "command": "workbench.action.toggleMaximizedPanel",
     "when": "!terminalFocus"
   },
   {
-    "key": "ctrl+`",
-    "command": "-workbench.action.terminal.toggleTerminal",
-    "when": "!terminalFocus"
-  },
-  {
-    "key": "ctrl+alt+m",
+    "key": "cmd+j",
     "command": "workbench.action.terminal.toggleTerminal",
     "when": "terminalFocus"
   }
