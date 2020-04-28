@@ -30,31 +30,31 @@ export LSCOLORS=GxFxCxDxBxegedabagaced
 alias ls='ls -GFh'
 
 # For bash color with git branch.
-# export PS1='\[\033[0;36m\]\[\033[0m\033[0;36m\]\u\[\033[0;93m\] @ \w\[\033[0;36m\] - [$(git branch 2>/dev/null | grep "^*" | colrm 1 2)\[\033[0;36m\]]\[\033[0m\033[0;36m\] \$\[\033[0m\033[0;36m\]\[\033[0m\] '
+export PS1='\[\033[0;36m\]\[\033[0m\033[0;36m\]\u\[\033[0;93m\] @ \w\[\033[0;36m\] - [$(git branch 2>/dev/null | grep "^*" | colrm 1 2)\[\033[0;36m\]]\[\033[0m\033[0;36m\] \$\[\033[0m\033[0;36m\]\[\033[0m\] '
 
 #----------------#
 # Bash powerline #
 #----------------#
 
-export THEME=$HOME/.bash/themes/agnoster-bash/agnoster.bash
-if [[ -f $THEME ]]; then
-    export DEFAULT_USER=`whoami`
-    source $THEME
-fi
+# export THEME=$HOME/.bash/themes/agnoster-bash/agnoster.bash
+# if [[ -f $THEME ]]; then
+#     export DEFAULT_USER=`whoami`
+#     source $THEME
+# fi
 
 #-------------------------------#
 # Open window in same directory #
 #-------------------------------#
 
 # Save path on "cd".
-function cd {
-    builtin cd $@
-    pwd > ~/.last_dir
-}
+# function cd {
+#     builtin cd $@
+#     pwd > ~/.last_dir
+# }
 
 # Restore last saved path.
-if [ -f ~/.last_dir ]
-    then cd `cat ~/.last_dir`
-fi
+# if [ -f ~/.last_dir ]
+#     then cd `cat ~/.last_dir`
+# fi
 
 
