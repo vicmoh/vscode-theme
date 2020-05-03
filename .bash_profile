@@ -4,6 +4,9 @@ code () { VSCODE_CWD="$PWD" open -n -b "com.microsoft.VSCode" --args $* ;}
 # Export path for flutter.
 export PATH=/Users/vic/Documents/Path/flutter/bin:$PATH
 
+# Enable desktop
+export ENABLE_FLUTTER_DESKTOP=true
+
 # Export python 3.8.
 # export LDFLAGS="-L/usr/local/opt/python@3.8/lib"
 
