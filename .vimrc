@@ -75,7 +75,7 @@ set ignorecase
 set cindent
 set autoindent
 " colorscheme default
+" colorscheme afterglow
 " colorscheme hyper
-" colorscheme molokai_dark
-colorscheme afterglow
+colorscheme challenger_deep
 
