@@ -100,6 +100,7 @@
             "terminal.border": "#dddddd"
         }
     },
+		"terminal.integrated.fontFamily": "Hack",
     "dart.closingLabels": false,
     "C_Cpp.updateChannel": "Insiders",
     "C_Cpp.clang_format_style": "Google",
