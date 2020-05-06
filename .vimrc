@@ -74,6 +74,8 @@ set hlsearch
 set ignorecase
 set cindent
 set autoindent
+set spelllang=en
+set spell
 " colorscheme default
 " colorscheme afterglow
 " colorscheme hyper
