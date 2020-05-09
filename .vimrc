@@ -3,9 +3,9 @@ syntax on
 syntax sync minlines=10000
 set number
 set formatoptions=tcqrn1
-set tabstop=2
-set shiftwidth=2
-set softtabstop=2
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
 set noshiftround
 set re=0
 set ttyfast
@@ -37,6 +37,7 @@ Plugin 'VundleVim/Vundle.vim'
 " React TypeScript plugins
 Plugin 'leafgarland/typescript-vim'
 Plugin 'peitalin/vim-jsx-typescript'
+Plugin 'dart-lang/dart-vim-plugin'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
