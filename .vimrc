@@ -7,14 +7,14 @@ set tabstop=4
 set shiftwidth=4
 set softtabstop=4
 set noshiftround
-set re=0
+set re=1
 set ttyfast
 set hlsearch
 set ignorecase
 set cindent
 set autoindent
 set spelllang=en
-set nospell
+set spell
 " colorscheme default
 " colorscheme afterglow
 " colorscheme hyper
@@ -37,6 +37,11 @@ Plugin 'VundleVim/Vundle.vim'
 " React TypeScript plugins
 Plugin 'leafgarland/typescript-vim'
 Plugin 'peitalin/vim-jsx-typescript'
+
+" Web dev code formatter
+Plugin 'prettier/vim-prettier'
+
+" Dart syntax high lighter
 Plugin 'dart-lang/dart-vim-plugin'
 
 " All of your Plugins must be added before the following line
