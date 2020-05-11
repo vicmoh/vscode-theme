@@ -41,8 +41,9 @@ Plugin 'peitalin/vim-jsx-typescript'
 " Web dev code formatter
 Plugin 'prettier/vim-prettier'
 
-" Dart syntax high lighter
+" Dart syntax high lighter and hot reload
 Plugin 'dart-lang/dart-vim-plugin'
+Plugin 'hankchiutw/flutter-reload.vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
