@@ -5,7 +5,7 @@ code () { VSCODE_CWD="$PWD" open -n -b "com.microsoft.VSCode" --args $* ;}
 vs () { vim $(fzf) }
 
 # Quick text search in current directory
-search () { grep -rin '*$1*' ./ }
+search () { grep -rin $1 ./ }
 
 # Export path for flutter.
 export PATH=/Users/vic/Documents/Path/flutter/bin:$PATH
