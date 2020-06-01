@@ -1,7 +1,7 @@
 " My custom setup.
 syntax on
 syntax sync minlines=10000
-set number
+set number 
 set formatoptions=tcqrn1
 set tabstop=4
 set shiftwidth=4
@@ -18,6 +18,7 @@ set spell
 " colorscheme default
 " colorscheme afterglow
 " colorscheme hyper
+" colorscheme monokai
 colorscheme challenger_deep
 
 " Vundle plugins ----------------------------

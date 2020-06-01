@@ -1,6 +1,12 @@
 # Script for opening vscode using "code .".
 code () { VSCODE_CWD="$PWD" open -n -b "com.microsoft.VSCode" --args $* ;}
 
+# Fuzzy Finder for vim.
+vs () { vim $(fzf) }
+
+# Quick text search in current directory
+search () { grep -rin '*$1*' ./ }
+
 # Export path for flutter.
 export PATH=/Users/vic/Documents/Path/flutter/bin:$PATH
 
@@ -13,7 +19,7 @@ export ENABLE_FLUTTER_DESKTOP=true
 # Export python.
 export PATH="/usr/local/opt/python@3.8/bin:$PATH"
 
-py () { "python3.8"; }
+py () { "python3.8" $1 $2; }
 
 # Export nvm.
 export NVM_DIR="/Users/vic/.nvm"
