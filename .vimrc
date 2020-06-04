@@ -3,11 +3,11 @@ syntax on
 syntax sync minlines=10000
 set number 
 set formatoptions=tcqrn1
-set tabstop=4
-set shiftwidth=4
-set softtabstop=4
+set tabstop=2
+set shiftwidth=2
+set softtabstop=2
 set noshiftround
-set re=1
+set re=0
 set ttyfast
 set hlsearch
 set ignorecase
