@@ -1,6 +1,6 @@
 " My custom setup.
 syntax on
-syntax sync minlines=10000
+" syntax sync minlines=1000
 set ruler " Show file stats
 set visualbell " Blink cursor on error
 set modelines=0 " Security
@@ -8,26 +8,32 @@ set number
 
 " Format and white space.
 set wrap
+set formatoptions=tcqrn1
 set encoding=utf-8
 set cindent
 set autoindent
-set formatoptions=tcqrn1
 set tabstop=2
 set shiftwidth=2
 set softtabstop=2
 set expandtab
+set smarttab
 set noshiftround
 
 " Text highlighting, search.
-set scrolloff=3
-set re=2
+set scrolloff=10
+set re=0
 set ttyfast
+set incsearch
 set hlsearch
 set ignorecase
 
 " Spelling.
 set spelllang=en
 set spell
+
+" No swap files
+set nobackup
+set noswapfile
 
 " colorscheme default
 " colorscheme afterglow
