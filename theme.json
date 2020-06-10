@@ -1,147 +1,116 @@
 {
-    "editor.tokenColorCustomizations": {
-        "[Monokai]": {
-            "comments": "#555555",
-            "textMateRules": [
-                {
-                    "scope": "entity.name.function",
-                    "settings": {}
-                },
-                {
-                    "scope": "variable",
-                    "settings": {
-                        "foreground": "#ffffff"
-                    }
-                },
-                {
-                    "scope": "entity.name.type",
-                    "settings": {
-                        "fontStyle": "italic bold",
-                        "foreground": "#FF00FF"
-                    }
-                },
-                {
-                    "scope": "keyword, variable.language.this",
-                    "settings": {
-                        "fontStyle": "bold"
-                    }
-                }
-            ]
-        }
-    },
-    "workbench.colorCustomizations": {
-        "[Monokai]": {
-            "focusBorder": "#555555",
-            "contrastBorder": "#000000",
-            "window.activeBorder": "#000000",
-            "breadcrumb.foreground": "#555555",
-            "editorIndentGuide.background": "#111111",
-            "foreground": "#ffffff",
-            "menu.background": "#000000",
-            "statusBar.background": "#000000",
-            "statusBar.foreground": "#555555",
-            "statusBar.debuggingForeground": "#ffffff",
-            "statusBar.debuggingBackground": "#a00000",
-            "sideBar.background": "#000000",
-            "sideBarSectionHeader.background": "#000000",
-            "sideBar.foreground": "#555555",
-            "list.activeSelectionForeground": "#dddddd",
-            "list.inactiveSelectionForeground": "#dddddd",
-            "list.warningForeground": "#ffbb00",
-            "list.errorForeground": "#ff0000",
-            "list.inactiveSelectionBackground": "#111111",
-            "list.activeSelectionBackground": "#111111",
-            "list.hoverBackground": "#111111",
-            "list.focusBackground": "#111111",
-            "scrollbarSlider.background": "#50505080",
-            "scrollbarSlider.activeBackground": "#50505080",
-            "scrollbarSlider.hoverBackground": "#50505080",
-            "panel.background": "#000000",
-            "editor.background": "#000000",
-            "editor.lineHighlightBackground": "#111111",
-            "editorGroupHeader.tabsBackground": "#000000",
-            "activityBar.background": "#000000",
-            "tab.inactiveBackground": "#000000",
-            "tab.activeBackground": "#111111",
-            "tab.activeBorder": "#a00000",
-            "minimap.selectionHighlight": "#a00000",
-            "input.foreground": "#ffffff",
-            "input.background": "#000000",
-            "input.border": "#000000",
-            "input.placeholderForeground": "#555555",
-            "inputOption.activeBorder": "#a00000",
-            "inputOption.activeBackground": "#222222",
-            "editor.findMatchBorder": "#ffff00",
-            "settings.textInputBackground": "#000000",
-            "settings.textInputBorder": "#000000",
-            "dropdown.background": "#000000",
-            "dropdown.border": "#222222",
-            "editorWidget.border": "#a00000",
-            "editorSuggestWidget.background": "#000000",
-            "editorSuggestWidget.border": "#222222",
-            "editorSuggestWidget.highlightForeground": "#999999",
-            "editorWidget.background": "#222222",
-            "editorWidget.foreground": "#dddddd",
-            "editorHoverWidget.background": "#222222",
-            "editorHoverWidget.border": "#222222",
-            "editorLineNumber.foreground": "#555555",
-            "editorLineNumber.activeForeground": "#999999",
-            "button.background": "#0099ff",
-            "button.foreground": "#dddddd",
-            "panelTitle.activeBorder": "#ff0000",
-            "panelTitle.activeForeground": "#dddddd",
-            "panelTitle.inactiveForeground": "#999999",
-            "panelInput.border": "#999999",
-            "panel.border": "#000000",
-            "panel.dropBackground": "#111111",
-            "badge.background": "#a00000",
-            "badge.foreground": "#dddddd",
-            "terminal.foreground": "#dddddd",
-            "terminal.border": "#dddddd"
-        }
-    },
-    "vim.statusBarColorControl": false,
-    "terminal.integrated.fontFamily": "Hack",
-    "dart.autoImportCompletions": false,
-    "dart.closingLabels": false,
-    "C_Cpp.clang_format_style": "Google",
-    "C_Cpp.autoAddFileAssociations": false,
-    "window.zoomLevel": 0,
-    "editor.wordWrap": "on",
-    "editor.minimap.enabled": false,
-    "editor.renderIndentGuides": false,
-    "editor.renderControlCharacters": false,
-    "editor.highlightActiveIndentGuide": false,
-    "editor.fontWeight": "normal",
-    "editor.tabSize": 2,
-    "breadcrumbs.enabled": true,
-    "workbench.colorTheme": "Mayukai Dark",
-    "workbench.activityBar.visible": false,
-    "workbench.statusBar.visible": true,
-    "workbench.sideBar.location": "left",
-    "workbench.iconTheme": "material-icon-theme",
-    "javascript.updateImportsOnFileMove.enabled": "always",
-    "cSpell.language": "en,en-GB",
-    "jsFileHeader.Author": "Vicky Mohammad",
-    "jsFileHeader.Copyright": "Copyright (c) 2020 by Vicky Mohammad. All rights reserved.",
-    "latex-workshop.view.pdf.viewer": "tab",
-    "python.jediEnabled": false,
-    "[typescript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[yaml]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[javascript]": {
-        "editor.defaultFormatter": "vscode.typescript-language-features"
-    },
-    "[html]": {
-        "editor.defaultFormatter": "vscode.html-language-features"
-    },
-    "[json]": {
-        "editor.defaultFormatter": "vscode.json-language-features"
-    },
-    "[jsonc]": {
-        "editor.defaultFormatter": "vscode.json-language-features"
+  "workbench.colorCustomizations": {
+    "[Monokai]": {
+      "focusBorder": "#555555",
+      "contrastBorder": "#000000",
+      "window.activeBorder": "#000000",
+      "breadcrumb.foreground": "#555555",
+      "editorIndentGuide.background": "#111111",
+      "foreground": "#ffffff",
+      "menu.background": "#000000",
+      "statusBar.background": "#000000",
+      "statusBar.foreground": "#555555",
+      "statusBar.debuggingForeground": "#ffffff",
+      "statusBar.debuggingBackground": "#a00000",
+      "sideBar.background": "#000000",
+      "sideBarSectionHeader.background": "#000000",
+      "sideBar.foreground": "#555555",
+      "list.activeSelectionForeground": "#dddddd",
+      "list.inactiveSelectionForeground": "#dddddd",
+      "list.warningForeground": "#ffbb00",
+      "list.errorForeground": "#ff0000",
+      "list.inactiveSelectionBackground": "#111111",
+      "list.activeSelectionBackground": "#111111",
+      "list.hoverBackground": "#111111",
+      "list.focusBackground": "#111111",
+      "scrollbarSlider.background": "#50505080",
+      "scrollbarSlider.activeBackground": "#50505080",
+      "scrollbarSlider.hoverBackground": "#50505080",
+      "panel.background": "#000000",
+      "editor.background": "#000000",
+      "editor.lineHighlightBackground": "#111111",
+      "editorGroupHeader.tabsBackground": "#000000",
+      "activityBar.background": "#000000",
+      "tab.inactiveBackground": "#000000",
+      "tab.activeBackground": "#111111",
+      "tab.activeBorder": "#a00000",
+      "minimap.selectionHighlight": "#a00000",
+      "input.foreground": "#ffffff",
+      "input.background": "#000000",
+      "input.border": "#000000",
+      "input.placeholderForeground": "#555555",
+      "inputOption.activeBorder": "#a00000",
+      "inputOption.activeBackground": "#222222",
+      "editor.findMatchBorder": "#ffff00",
+      "settings.textInputBackground": "#000000",
+      "settings.textInputBorder": "#000000",
+      "dropdown.background": "#000000",
+      "dropdown.border": "#222222",
+      "editorWidget.border": "#a00000",
+      "editorSuggestWidget.background": "#000000",
+      "editorSuggestWidget.border": "#222222",
+      "editorSuggestWidget.highlightForeground": "#999999",
+      "editorWidget.background": "#222222",
+      "editorWidget.foreground": "#dddddd",
+      "editorHoverWidget.background": "#222222",
+      "editorHoverWidget.border": "#222222",
+      "editorLineNumber.foreground": "#555555",
+      "editorLineNumber.activeForeground": "#999999",
+      "button.background": "#0099ff",
+      "button.foreground": "#dddddd",
+      "panelTitle.activeBorder": "#ff0000",
+      "panelTitle.activeForeground": "#dddddd",
+      "panelTitle.inactiveForeground": "#999999",
+      "panelInput.border": "#999999",
+      "panel.border": "#000000",
+      "panel.dropBackground": "#111111",
+      "badge.background": "#a00000",
+      "badge.foreground": "#dddddd",
+      "terminal.foreground": "#dddddd",
+      "terminal.border": "#dddddd"
     }
+  },
+  "vim.statusBarColorControl": false,
+  "terminal.integrated.fontFamily": "Hack",
+  "dart.autoImportCompletions": false,
+  "dart.closingLabels": false,
+  "C_Cpp.clang_format_style": "Google",
+  "C_Cpp.autoAddFileAssociations": false,
+  "window.zoomLevel": 0,
+  "editor.wordWrap": "on",
+  "editor.minimap.enabled": false,
+  "editor.renderIndentGuides": false,
+  "editor.renderControlCharacters": false,
+  "editor.highlightActiveIndentGuide": false,
+  "editor.fontWeight": "normal",
+  "editor.tabSize": 2,
+  "breadcrumbs.enabled": false,
+  "workbench.activityBar.visible": false,
+  "workbench.statusBar.visible": true,
+  "workbench.sideBar.location": "left",
+  "workbench.iconTheme": "material-icon-theme",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "cSpell.language": "en,en-GB",
+  "jsFileHeader.Author": "Vicky Mohammad",
+  "jsFileHeader.Copyright": "Copyright (c) 2020 by Vicky Mohammad. All rights reserved.",
+  "latex-workshop.view.pdf.viewer": "tab",
+  "python.jediEnabled": false,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
