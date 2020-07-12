@@ -55,6 +55,9 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
 
+" Auto completion
+Plugin 'valloric/youcompleteme'
+
 " React TypeScript plugins
 Plugin 'leafgarland/typescript-vim'
 Plugin 'peitalin/vim-jsx-typescript'
@@ -65,6 +68,9 @@ Plugin 'prettier/vim-prettier'
 " Dart syntax high lighter and hot reload
 Plugin 'dart-lang/dart-vim-plugin'
 Plugin 'hankchiutw/flutter-reload.vim'
+
+" Swift syntax highlighting
+Plugin 'keith/swift.vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
