@@ -38,8 +38,8 @@ set noswapfile
 " colorscheme default
 " colorscheme afterglow
 " colorscheme hyper
-" colorscheme monokai
-colorscheme challenger_deep
+colorscheme monokai
+" colorscheme challenger_deep
 
 " Vundle plugins ----------------------------
 
@@ -68,6 +68,15 @@ Plugin 'prettier/vim-prettier'
 " Dart syntax high lighter and hot reload
 Plugin 'dart-lang/dart-vim-plugin'
 Plugin 'hankchiutw/flutter-reload.vim'
+
+" Dart CoC, type below once vundle 
+" extensions are installed
+"
+" :CocInstall coc-flutter
+"
+Plugin 'natebosch/vim-lsc'
+Plugin 'natebosch/vim-lsc-dart'
+Plugin 'neoclide/coc.nvim'
 
 " Swift syntax highlighting
 Plugin 'keith/swift.vim'
