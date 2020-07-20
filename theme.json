@@ -34,7 +34,7 @@
       "focusBorder": "#555555",
       "contrastBorder": "#000000",
       "window.activeBorder": "#000000",
-      "breadcrumb.foreground": "#555555",
+      "breadcrumb.foreground": "#333333",
       "editorIndentGuide.background": "#111111",
       "foreground": "#ffffff",
       "menu.background": "#000000",
