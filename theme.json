@@ -1,7 +1,7 @@
 {
   "editor.tokenColorCustomizations": {
     "[Monokai]": {
-      "comments": "#555555",
+      "comments": "#444444",
       "textMateRules": [
         {
           "scope": "entity.name.function",
@@ -84,7 +84,7 @@
       "editorWidget.foreground": "#dddddd",
       "editorHoverWidget.background": "#222222",
       "editorHoverWidget.border": "#222222",
-      "editorLineNumber.foreground": "#555555",
+      "editorLineNumber.foreground": "#333333",
       "editorLineNumber.activeForeground": "#999999",
       "button.background": "#0099ff",
       "button.foreground": "#dddddd",
@@ -144,6 +144,6 @@
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "workbench.colorTheme": "Monokai",
-  "python.languageServer": "Microsoft"
+  "python.languageServer": "Microsoft",
+  "workbench.colorTheme": "Monokai"
 }
