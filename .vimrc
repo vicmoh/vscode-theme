@@ -71,6 +71,8 @@ Plugin 'hankchiutw/flutter-reload.vim'
 
 " Dart CoC, type below once vundle 
 " extensions are installed
+" Ref: After installing cmake, 
+" cd'd into ~.vim/bundle/YouCompleteMe and ran python install.py
 "
 " :CocInstall coc-flutter
 "
