@@ -100,3 +100,8 @@ filetype plugin indent on    " required
 " Vim prettier quick setting
 let g:prettier#quickfix_enabled = 0
 let g:prettier#autoformat = 0
+
+" For dart coc plugin.
+let g:lsc_auto_map = v:true
+
+
