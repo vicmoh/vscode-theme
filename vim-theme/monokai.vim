@@ -432,3 +432,9 @@ else
         \ s:br_cyan.gui,
         \ s:br_white.gui]
 endif
+
+
+" Black background
+" hi Normal ctermbg=16 guibg=#000000
+" hi LineNr ctermbg=16 guibg=#000000
+
