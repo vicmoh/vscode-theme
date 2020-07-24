@@ -3,16 +3,20 @@ live_config_reload: true
 
 # Font settings
 font: 
+  normal:
+    family: Hack
+    style: Regular
+
   bold:
-    family: "Hack"
-    style: bold
+    family: Hack
+    style: Bold
 
   italic:
-    family: "Hack" 
+    family: Hack
     style: Italic
 
   bold_italic:
-    family: "Hack" 
+    family: Hack
     style: Bold Italic
 
   # Point size
