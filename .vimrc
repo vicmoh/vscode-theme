@@ -1,6 +1,7 @@
 " My custom setup.
 syntax on
 " syntax sync minlines=1000
+syntime on
 set ruler " Show file stats
 set visualbell " Blink cursor on error
 set modelines=0 " Security
@@ -84,6 +85,10 @@ Plugin 'neoclide/coc.nvim'
 " Swift syntax highlighting
 Plugin 'keith/swift.vim'
 
+" Bottom status bar
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -106,5 +111,4 @@ let g:prettier#autoformat = 0
 
 " For dart coc plugin.
 let g:lsc_auto_map = v:true
-
 
