@@ -4,7 +4,10 @@ code () { VSCODE_CWD="$PWD" open -n -b "com.microsoft.VSCode" --args $* ;}
 # Fuzzy Finder for vim.
 vs () { vim $(fzf) }
 
-# Quick text search in current directory
+# Use custom vim color for tmux.
+export TERM="xterm-256color"
+
+# Quick text search in current directory.
 search () { grep -rin $1 ./ }
 
 # Export path for flutter.
@@ -65,5 +68,4 @@ alias ls='ls -GFh'
 # if [ -f ~/.last_dir ]
 #     then cd `cat ~/.last_dir`
 # fi
-
 
