@@ -1,7 +1,7 @@
 " My custom setup.
 syntax on
 " syntax sync minlines=1000
-syntime on
+" syntime on
 set ruler " Show file stats
 set visualbell " Blink cursor on error
 set modelines=0 " Security
@@ -60,16 +60,9 @@ Plugin 'VundleVim/Vundle.vim'
 " Auto completion
 Plugin 'valloric/youcompleteme'
 
-" React TypeScript plugins
-Plugin 'leafgarland/typescript-vim'
-Plugin 'peitalin/vim-jsx-typescript'
-
-" Web dev code formatter
-Plugin 'prettier/vim-prettier'
-
-" Dart syntax high lighter and hot reload
-Plugin 'dart-lang/dart-vim-plugin'
-Plugin 'hankchiutw/flutter-reload.vim'
+" Bottom status bar
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
 
 " Dart CoC, type below once vundle 
 " extensions are installed
@@ -82,12 +75,21 @@ Plugin 'natebosch/vim-lsc'
 Plugin 'natebosch/vim-lsc-dart'
 Plugin 'neoclide/coc.nvim'
 
+" Dart syntax high lighter and hot reload
+Plugin 'dart-lang/dart-vim-plugin'
+Plugin 'hankchiutw/flutter-reload.vim'
+
+" React TypeScript plugins
+Plugin 'leafgarland/typescript-vim'
+Plugin 'peitalin/vim-jsx-typescript'
+
+" Web dev code formatter
+Plugin 'prettier/vim-prettier'
+
 " Swift syntax highlighting
 Plugin 'keith/swift.vim'
 
-" Bottom status bar
-Plugin 'vim-airline/vim-airline'
-Plugin 'vim-airline/vim-airline-themes'
+
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
