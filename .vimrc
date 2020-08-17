@@ -57,23 +57,27 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
 
-" Auto completion
-Plugin 'valloric/youcompleteme'
-
 " Bottom status bar
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 
+" Auto completion
+" Plugin 'valloric/youcompleteme'
+
+" Web dev code formatter
+Plugin 'prettier/vim-prettier'
+
 " Dart CoC, type below once vundle 
 " extensions are installed
-" Ref: After installing cmake, 
-" cd'd into ~.vim/bundle/YouCompleteMe and ran python install.py
+" 
+" After installing cmake, 
+" cd'd into ~/.vim/bundle/YouCompleteMe and ran python install.py
 "
 " :CocInstall coc-flutter
 "
-Plugin 'natebosch/vim-lsc'
-Plugin 'natebosch/vim-lsc-dart'
-Plugin 'neoclide/coc.nvim'
+" Plugin 'neoclide/coc.nvim', {'do': 'yarn install --frozen-lockfile'}
+" Plugin 'natebosch/vim-lsc'
+" Plugin 'natebosch/vim-lsc-dart'
 
 " Dart syntax high lighter and hot reload
 Plugin 'dart-lang/dart-vim-plugin'
@@ -83,12 +87,8 @@ Plugin 'hankchiutw/flutter-reload.vim'
 Plugin 'leafgarland/typescript-vim'
 Plugin 'peitalin/vim-jsx-typescript'
 
-" Web dev code formatter
-Plugin 'prettier/vim-prettier'
-
 " Swift syntax highlighting
 Plugin 'keith/swift.vim'
-
 
 
 " All of your Plugins must be added before the following line
