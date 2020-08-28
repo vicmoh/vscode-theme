@@ -90,6 +90,9 @@ Plugin 'peitalin/vim-jsx-typescript'
 " Swift syntax highlighting
 Plugin 'keith/swift.vim'
 
+"c/cpp syntax highlight
+Plugin 'octol/vim-cpp-enhanced-highlight'
+
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
