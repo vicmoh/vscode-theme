@@ -40,8 +40,8 @@ set noswapfile
 " colorscheme default
 " colorscheme afterglow
 " colorscheme hyper
-colorscheme monokai
-" colorscheme challenger_deep
+" colorscheme monokai
+colorscheme challenger_deep
 
 " Vundle plugins ----------------------------
 
@@ -62,7 +62,7 @@ Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 
 " Auto completion
-" Plugin 'valloric/youcompleteme'
+Plugin 'valloric/youcompleteme'
 
 " Web dev code formatter
 Plugin 'prettier/vim-prettier'
@@ -75,9 +75,11 @@ Plugin 'prettier/vim-prettier'
 "
 " :CocInstall coc-flutter
 "
-" Plugin 'neoclide/coc.nvim', {'do': 'yarn install --frozen-lockfile'}
-" Plugin 'natebosch/vim-lsc'
-" Plugin 'natebosch/vim-lsc-dart'
+" Remove ~/.config/coc/ if exist.
+"
+Plugin 'neoclide/coc.nvim', {'do': 'yarn install --frozen-lockfile'}
+Plugin 'natebosch/vim-lsc'
+Plugin 'natebosch/vim-lsc-dart'
 
 " Dart syntax high lighter and hot reload
 Plugin 'dart-lang/dart-vim-plugin'
