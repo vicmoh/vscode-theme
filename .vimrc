@@ -77,7 +77,7 @@ Plugin 'prettier/vim-prettier'
 "
 " Remove ~/.config/coc/ if exist.
 "
-Plugin 'neoclide/coc.nvim', {'do': 'yarn install --frozen-lockfile'}
+" Plugin 'neoclide/coc.nvim', {'do': 'yarn install --frozen-lockfile'}
 Plugin 'natebosch/vim-lsc'
 Plugin 'natebosch/vim-lsc-dart'
 
@@ -116,6 +116,11 @@ filetype plugin indent on    " required
 let g:prettier#quickfix_enabled = 0
 let g:prettier#autoformat = 0
 
+" Disable CoC and Jedi auto-completion
+" To prevent multiple auto-completion being called.
+" autocmd FileType markdown let b:coc_suggest_disable = 1
+" autocmd FileType markdown let g:jedi#completions_enabled = 0
+
 " For dart coc plugin.
-let g:lsc_auto_map = v:true
+" autocmd FileType markdown let g:lsc_auto_map = v:false
 
