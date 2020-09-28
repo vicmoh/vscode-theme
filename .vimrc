@@ -38,10 +38,12 @@ set nobackup
 set noswapfile
 
 " colorscheme default
+colorscheme xcodedarkhc
+" colorscheme panic
 " colorscheme afterglow
 " colorscheme hyper
 " colorscheme monokai
-colorscheme challenger_deep
+" colorscheme challenger_deep
 
 " Vundle plugins ----------------------------
 
