@@ -740,3 +740,9 @@ endif
 " Term colors: base5      red  light_teal   orange
 " Term colors: light_blue pink light_purple base7
 " vim: et ts=2 sw=2
+
+" Black background
+" hi Normal ctermbg=16 guibg=#000000
+" hi LineNr ctermbg=16 guibg=#000000
+
+

@@ -29,8 +29,8 @@ hi StatusLine ctermfg=231 ctermbg=236 cterm=bold guifg=#FFFFFF guibg=#64666d gui
 hi StatusLineNC ctermfg=231 ctermbg=236 cterm=NONE guifg=#FFFFFF guibg=#64666d gui=NONE
 hi Pmenu ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 hi PmenuSel ctermfg=NONE ctermbg=236 cterm=NONE guifg=NONE guibg=#0C151E gui=NONE
-hi IncSearch ctermfg=24 ctermbg=193 cterm=NONE guifg=#0C151E guibg=#FFCC4B gui=NONE
-hi Search ctermfg=NONE ctermbg=NONE cterm=underline guifg=NONE guibg=NONE gui=underline
+hi IncSearch ctermfg=0 ctermbg=226 cterm=NONE guifg=#0C151E guibg=#FFCC4B gui=NONE
+hi Search ctermfg=0 ctermbg=226 cterm=NONE guifg=NONE guibg=NONE gui=underline
 hi Directory ctermfg=135 ctermbg=NONE cterm=NONE guifg=#7F4EFE guibg=NONE gui=NONE
 hi Folded ctermfg=24 ctermbg=235 cterm=NONE guifg=#7F4EFE guibg=#0C151E gui=NONE
 hi SignColumn ctermfg=246 ctermbg=235 cterm=NONE guifg=#909194 guibg=#0C151E gui=NONE
@@ -135,9 +135,9 @@ hi vimHiGuiFgBg ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE
 
 " Bad spelling style
 hi clear SpellBad
-hi SpellBad cterm=underline
+hi SpellBad cterm=underline ctermbg=NONE
 " Set style for gVim
-hi SpellBad gui=undercurl
+hi SpellBad gui=undercurl guibg=NONE
 
 "
 "cygwin has an annoying behavior where it resets background to light
