@@ -20,7 +20,7 @@ font:
     style: Bold Italic
 
   # Point size
-  size: 12.0
+  size: 12
 
   # Offset is the extra space around each character. `offset.y` can be thought of
   # as modifying the line spacing, and `offset.x` as modifying the letter spacing.
@@ -54,9 +54,11 @@ font:
 draw_bold_text_with_bright_colors: true
 
 window:
+  dynamic_title: true
+
   dimensions:
     columns: 80
-    lines: 24
+    lines: 60
 
   padding:
     x: 0
@@ -85,8 +87,13 @@ background_opacity: 1
 colors:
   # Default colors
   primary:
-    background: '0x0A0E14'
-    foreground: '0xB3B1AD'
+    background: '0x0A0E14' # Original
+    # background: '0x000000' # Black
+
+    foreground: '0xB3B1AD' # Original
+    # foreground: '0xCDDC39' # Lime green
+    # foreground: '0xC8C8C8' RGB(200, 200, 200)
+    # foreground: '0xFFFFFF' RGB(255, 255, 255)
 
   # Normal colors
   normal:
@@ -110,10 +117,12 @@ colors:
     cyan: '0x95E6CB'
     white: '0xFFFFFF'
 
+  cursor:
+    text: '0x000000'
+    cursor: '0xF44336'
+
 selection:
   semantic_escape_chars: ",│`|:\"' ()[]{}<>"
- 
-dynamic_title: true
  
 hide_cursor_when_typing: false
 
@@ -124,6 +133,13 @@ hide_cursor_when_typing: false
 # - Underline
 # - Beam
 cursor_style: Block
+
+custom_cursor_colors: true
+
+scrolling:
+  # Maximum number of lines in the scrollback buffer.
+  # Specifying '0' will disable scrolling.
+  history: 10000
 
 mouse:
   # Click settings
