@@ -22,7 +22,7 @@ hi Visual ctermfg=NONE ctermbg=241 cterm=NONE guifg=NONE guibg=#0C151E gui=NONE
 hi CursorLine ctermbg=234 cterm=NONE guifg=NONE guibg=#0C151E gui=NONE
 hi CursorColumn ctermbg=234 cterm=NONE guifg=NONE guibg=#0C151E gui=NONE
 hi ColorColumn ctermfg=NONE ctermbg=236 cterm=NONE guifg=NONE guibg=#3d3f49 gui=NONE
-hi LineNr ctermfg=234 ctermbg=NONE cterm=NONE guifg=#3c464f guibg=#0C151E gui=NONE
+hi LineNr ctermfg=238 ctermbg=NONE cterm=NONE guifg=#3c464f guibg=#0C151E gui=NONE
 hi VertSplit ctermfg=234 ctermbg=0 cterm=bold guifg=#3c464f guibg=#0C151E gui=bold
 hi MatchParen ctermfg=203 ctermbg=NONE cterm=underline guifg=#FF4143 guibg=NONE gui=underline
 hi StatusLine ctermfg=231 ctermbg=236 cterm=bold guifg=#FFFFFF guibg=#64666d gui=bold
@@ -135,9 +135,9 @@ hi vimHiGuiFgBg ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE
 
 " Bad spelling style
 hi clear SpellBad
-hi SpellBad cterm=underline ctermbg=NONE
-" Set style for gVim
-hi SpellBad gui=undercurl guibg=NONE
+hi Error cterm=underline ctermbg=NONE ctermfg=196 gui=undercurl guibg=NONE guifg=#F44336
+hi SpellBad cterm=underline ctermbg=NONE gui=undercurl guibg=NONE
+hi SpellCap cterm=underline ctermbg=NONE ctermfg=117 gui=undercurl guibg=NONE guifg=#87ceeb
 
 "
 "cygwin has an annoying behavior where it resets background to light
