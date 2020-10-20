@@ -2,8 +2,8 @@
 syntax on
 " syntax sync minlines=1000
 " syntime on
+" set visualbell " Blink cursor on error
 set ruler " Show file stats
-set visualbell " Blink cursor on error
 set modelines=0 " Security
 set number 
 
@@ -38,7 +38,8 @@ set nobackup
 set noswapfile
 
 " colorscheme default
-colorscheme xcodedarkhc
+colorscheme mayu
+" colorscheme xcodedarkhc
 " colorscheme panic
 " colorscheme afterglow
 " colorscheme hyper
@@ -85,7 +86,7 @@ Plugin 'natebosch/vim-lsc-dart'
 
 " Dart syntax high lighter and hot reload
 Plugin 'dart-lang/dart-vim-plugin'
-Plugin 'hankchiutw/flutter-reload.vim'
+" Plugin 'hankchiutw/flutter-reload.vim'
 
 " React TypeScript plugins
 Plugin 'leafgarland/typescript-vim'
