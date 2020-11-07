@@ -166,6 +166,8 @@
   },
   "workbench.colorCustomizations": {
     "[Monokai]": {
+      "editorCursor.background": "#ffffff",
+      "editorCursor.foreground": "#ff0000",
       "titleBar.activeBackground": "#000000",
       "titleBar.activeForeground": "#ffffff",
       "focusBorder": "#555555",
@@ -178,7 +180,7 @@
       "statusBar.background": "#000000",
       "statusBar.foreground": "#ffffff",
       "statusBar.debuggingForeground": "#ffffff",
-      "statusBar.debuggingBackground": "#a00000",
+      "statusBar.debuggingBackground": "#9c27b0",
       "sideBar.background": "#000000",
       "sideBarSectionHeader.background": "#000000",
       "sideBar.foreground": "#333333",
@@ -286,6 +288,6 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "python.languageServer": "Microsoft",
-  "workbench.colorTheme": "Monokai",
+  "workbench.colorTheme": "Monokai"
 }
 
