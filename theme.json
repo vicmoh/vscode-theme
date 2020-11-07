@@ -35,6 +35,7 @@
   ],
   "cSpell.userWords": [
     "Hanlder",
+    "Schmick's",
     "Schmicker",
     "admob",
     "adsense",
@@ -238,6 +239,7 @@
       "terminal.border": "#dddddd"
     }
   },
+  "editor.overviewRulerBorder": false,
   "vim.statusBarColorControl": false,
   "terminal.integrated.fontFamily": "Hack",
   "dart.autoImportCompletions": false,
@@ -284,5 +286,6 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "python.languageServer": "Microsoft",
-  "workbench.colorTheme": "Monokai"
+  "workbench.colorTheme": "Monokai",
 }
+
