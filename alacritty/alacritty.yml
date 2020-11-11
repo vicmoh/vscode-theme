@@ -87,13 +87,14 @@ background_opacity: 1
 colors:
   # Default colors
   primary:
-    background: '0x0A0E14' # Original
-    # background: '0x000000' # Black
+    # background: '0x0A0E14' # Original
+    background: '0x000000' # Black
 
-    foreground: '0xB3B1AD' # Original
+    # foreground: '0xB3B1AD' # Original
     # foreground: '0xCDDC39' # Lime green
     # foreground: '0xC8C8C8' RGB(200, 200, 200)
     # foreground: '0xFFFFFF' RGB(255, 255, 255)
+    foreground: '0xD2C8BE'
 
   # Normal colors
   normal:
