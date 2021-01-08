@@ -1,5 +1,7 @@
 " My custom setup.
 syntax on
+filetype indent on
+
 " syntax sync minlines=1000
 " syntime on
 " set visualbell " Blink cursor on error
@@ -11,15 +13,19 @@ set number
 set wrap
 set formatoptions=tcqrn1
 set encoding=utf-8
-set cindent
-set autoindent
+
+" Tabs
 set tabstop=2
 set shiftwidth=2
 set softtabstop=2
 set expandtab
 set smarttab
-set smartindent
 set noshiftround
+
+" Indents
+set cindent
+set autoindent
+set smartindent
 
 " Text highlighting, search.
 set scrolloff=10
@@ -37,8 +43,8 @@ set spell
 set nobackup
 set noswapfile
 
-" colorscheme default
 colorscheme mayu
+" colorscheme default
 " colorscheme xcodedarkhc
 " colorscheme panic
 " colorscheme afterglow
@@ -55,7 +61,7 @@ filetype off                  " required
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 " alternatively, pass a path where Vundle should install plugins
-"call vundle#begin('~/some/path/here')
+" call vundle#begin('~/some/path/here')
 
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
@@ -64,40 +70,35 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 
-" Auto completion
-Plugin 'valloric/youcompleteme'
+" Auto completion (Original)
+" Plugin 'valloric/youcompleteme', {'do': './install.py'}
+
+" Fix version with 'YCM shutting down'.
+" cd'd into ~/.vim/bundle/YouCompleteMe and ran python install.py
+" to install YCM.
+Plugin 'valloric/youcompleteme', { 'do': './install.py --clang-completer --system-libclang' }
 
 " Web dev code formatter
 Plugin 'prettier/vim-prettier'
 
-" Dart CoC, type below once vundle 
-" extensions are installed
-" 
-" After installing cmake, 
-" cd'd into ~/.vim/bundle/YouCompleteMe and ran python install.py
-"
-" :CocInstall coc-flutter
-"
-" Remove ~/.config/coc/ if exist.
-"
-" Plugin 'neoclide/coc.nvim', {'do': 'yarn install --frozen-lockfile'}
+" Dart lsc. 
 Plugin 'natebosch/vim-lsc'
 Plugin 'natebosch/vim-lsc-dart'
 
 " Dart syntax high lighter and hot reload
 Plugin 'dart-lang/dart-vim-plugin'
-" Plugin 'hankchiutw/flutter-reload.vim'
+Plugin 'hankchiutw/flutter-reload.vim'
 
 " React TypeScript plugins
 Plugin 'leafgarland/typescript-vim'
 Plugin 'peitalin/vim-jsx-typescript'
+Plugin 'chemzqm/vim-jsx-improve'
 
 " Swift syntax highlighting
 Plugin 'keith/swift.vim'
 
 "c/cpp syntax highlight
 Plugin 'octol/vim-cpp-enhanced-highlight'
-
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -116,8 +117,9 @@ filetype plugin indent on    " required
 "
 
 " Vim prettier quick setting
-let g:prettier#quickfix_enabled = 0
-let g:prettier#autoformat = 0
+let g:prettier#quickfix_enabled = 1
+let g:prettier#autoformat = 1
+let g:prettier#autoformat_require_pragma = 0
 
 " Disable CoC and Jedi auto-completion
 " To prevent multiple auto-completion being called.
