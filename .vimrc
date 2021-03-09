@@ -43,7 +43,8 @@ set spell
 set nobackup
 set noswapfile
 
-colorscheme mayu
+colorscheme mayu2
+" colorscheme mayu
 " colorscheme default
 " colorscheme xcodedarkhc
 " colorscheme panic
@@ -78,16 +79,16 @@ Plugin 'vim-airline/vim-airline-themes'
 " to install YCM.
 Plugin 'valloric/youcompleteme', { 'do': './install.py --clang-completer --system-libclang' }
 
-" Web dev code formatter
-Plugin 'prettier/vim-prettier'
-
-" Dart lsc. 
+" Dart lsc and hot reload. 
 Plugin 'natebosch/vim-lsc'
 Plugin 'natebosch/vim-lsc-dart'
+Plugin 'hankchiutw/flutter-reload.vim'
 
 " Dart syntax high lighter and hot reload
 Plugin 'dart-lang/dart-vim-plugin'
-Plugin 'hankchiutw/flutter-reload.vim'
+
+" Web dev code formatter
+Plugin 'prettier/vim-prettier'
 
 " React TypeScript plugins
 Plugin 'leafgarland/typescript-vim'
