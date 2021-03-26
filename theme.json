@@ -278,10 +278,7 @@
       "badge.foreground": "#dddddd",
       "terminal.foreground": "#dddddd",
       "terminal.border": "#dddddd"
-    },
-    "statusBar.background": "#5f00af",
-    "statusBar.noFolderBackground": "#5f00af",
-    "statusBar.debuggingBackground": "#5f00af"
+    }
   },
   "editor.overviewRulerBorder": false,
   "vim.statusBarColorControl": false,
@@ -325,7 +322,7 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "python.languageServer": "Microsoft",
-  "workbench.colorTheme": "Monokai",
+  "workbench.colorTheme": "Mayukai Dark",
   "dart.previewLsp": true,
   "dart.debugExternalLibraries": true,
   "dart.debugSdkLibraries": true,
