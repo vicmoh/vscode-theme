@@ -616,3 +616,10 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
     delf <SID>grey_level
     delf <SID>grey_number
 endif
+
+" Bad spelling style
+hi clear SpellBad
+hi Error cterm=underline ctermbg=NONE ctermfg=210 gui=undercurl guibg=NONE guifg=#F44336
+hi SpellBad cterm=underline ctermbg=NONE gui=undercurl guibg=NONE
+hi SpellCap cterm=underline ctermbg=NONE ctermfg=117 gui=undercurl guibg=NONE guifg=#87ceeb
+

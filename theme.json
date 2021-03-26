@@ -46,6 +46,7 @@
     "autofocus",
     "barcode",
     "barcodes",
+    "bootloader",
     "clickables",
     "cloudinary",
     "coef",
@@ -86,6 +87,7 @@
     "multiline",
     "multinomial",
     "nltk",
+    "nodename",
     "noti",
     "ooen",
     "pacifico",
@@ -111,6 +113,7 @@
     "spotify",
     "stateful",
     "struct",
+    "sysname",
     "tabaro",
     "taboola",
     "tealish",
@@ -125,6 +128,7 @@
     "unpaused",
     "unregister",
     "upsert",
+    "utsname",
     "valgrind",
     "vectorizer",
     "vicmoh",
@@ -139,17 +143,52 @@
       "comments": "#444444",
       "textMateRules": [
         {
-          "scope": "entity.name.function",
-          "settings": {}
-        },
-        {
           "scope": "variable",
           "settings": {
-            "foreground": "#ffffff"
+            "foreground": "#DCDCDC"
+          }
+        },
+        {
+          "scope": "string",
+          "settings": {
+            "foreground": "#FFD700"
+          }
+        },
+        {
+          "scope": "variable.parameter",
+          "settings": {
+            "fontStyle": "italic",
+            "foreground": "#fed8b1"
           }
         },
         {
           "scope": "entity.name.type",
+          "settings": {
+            "fontStyle": "italic",
+            "foreground": "#00FFFF" // "#87ceeb"
+          }
+        },
+        {
+          "scope": "entity.name.function",
+          "settings": {
+            "foreground": "#BFFF00"
+          }
+        },
+        {
+          "scope": "entity.name.method",
+          "settings": {
+            "foreground": "#BFFF00"
+          }
+        },
+        {
+          "scope": "keyword",
+          "settings": {
+            "fontStyle": "italic bold",
+            "foreground": "#FB607F"
+          }
+        },
+        {
+          "scope": "keyword.operator",
           "settings": {
             "fontStyle": "italic bold",
             "foreground": "#FF00FF"
@@ -239,7 +278,10 @@
       "badge.foreground": "#dddddd",
       "terminal.foreground": "#dddddd",
       "terminal.border": "#dddddd"
-    }
+    },
+    "statusBar.background": "#5f00af",
+    "statusBar.noFolderBackground": "#5f00af",
+    "statusBar.debuggingBackground": "#5f00af"
   },
   "editor.overviewRulerBorder": false,
   "vim.statusBarColorControl": false,
@@ -258,17 +300,12 @@
   "editor.highlightActiveIndentGuide": false,
   "editor.fontWeight": "normal",
   "editor.tabSize": 2,
-  "breadcrumbs.enabled": true,
-  "workbench.activityBar.visible": false,
   "workbench.statusBar.visible": true,
   "workbench.sideBar.location": "left",
   "workbench.iconTheme": "material-icon-theme",
   "javascript.updateImportsOnFileMove.enabled": "always",
   "cSpell.language": "en,en-GB",
-  "jsFileHeader.Author": "Vicky Mohammad",
-  "jsFileHeader.Copyright": "Copyright (c) 2020 by Vicky Mohammad. All rights reserved.",
   "latex-workshop.view.pdf.viewer": "tab",
-  "python.jediEnabled": false,
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -288,6 +325,9 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "python.languageServer": "Microsoft",
-  "workbench.colorTheme": "Monokai"
+  "workbench.colorTheme": "Monokai",
+  "dart.previewLsp": true,
+  "dart.debugExternalLibraries": true,
+  "dart.debugSdkLibraries": true,
+  "workbench.activityBar.visible": false
 }
-
