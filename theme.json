@@ -280,7 +280,8 @@
       "badge.background": "#a00000",
       "badge.foreground": "#dddddd",
       "terminal.foreground": "#dddddd",
-      "terminal.border": "#dddddd"
+      "terminal.border": "#dddddd",
+      "debugToolBar.background": "#000000"
     }
   },
   "editor.overviewRulerBorder": false,
