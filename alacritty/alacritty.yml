@@ -5,15 +5,15 @@ live_config_reload: true
 font:
   normal:
     family: Hack
-    style: Bold # Regular
+    style: Regular # Regular
 
   bold:
     family: Hack
-    style: Bold
+    style: Bold # Bold
 
   italic:
     family: Hack
-    style: Bold # Italic
+    style: Italic # Italic
 
   bold_italic:
     family: Hack
@@ -78,7 +78,7 @@ window:
   decorations: full
 
 # Colors (Ayu Dark)
-background_opacity: 1
+background_opacity: 0.99
 colors:
   # Default colors
   primary:
