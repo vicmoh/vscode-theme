@@ -92,6 +92,7 @@
     "noti",
     "ooen",
     "pacifico",
+    "pedo",
     "pjson",
     "playfair",
     "precache",
@@ -137,6 +138,7 @@
     "webhook",
     "webhooks",
     "webview",
+    "yeet",
     "zanoon"
   ],
   "editor.tokenColorCustomizations": {
@@ -298,6 +300,7 @@
   "editor.renderIndentGuides": false,
   "editor.renderControlCharacters": false,
   "editor.highlightActiveIndentGuide": false,
+  "editor.detectIndentation": true,
   "editor.fontWeight": "normal",
   "editor.tabSize": 2,
   "workbench.statusBar.visible": true,
@@ -325,7 +328,7 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "python.languageServer": "Microsoft",
-  "workbench.colorTheme": "Monokai",
+  "workbench.colorTheme": "Mayukai Dark",
   "dart.previewLsp": true,
   "dart.debugExternalLibraries": true,
   "dart.debugSdkLibraries": true,
@@ -338,5 +341,12 @@
     "**/.factorypath": true
   },
   "editor.minimap.enabled": false,
+  "editor.cursorStyle": "line",
+  "editor.insertSpaces": true,
+  "editor.lineNumbers": "on",
+  "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter.notebook.ipynb"
+  },
   "workbench.activityBar.visible": false
 }
