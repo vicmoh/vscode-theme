@@ -43,12 +43,12 @@ set spell
 set nobackup
 set noswapfile
 
-colorscheme mayu2
+" colorscheme mayu2
 " colorscheme mayu
 " colorscheme default
 " colorscheme xcodedarkhc
 " colorscheme panic
-" colorscheme afterglow
+colorscheme afterglow
 " colorscheme hyper
 " colorscheme monokai
 " colorscheme challenger_deep
@@ -84,7 +84,7 @@ Plugin 'natebosch/vim-lsc'
 Plugin 'natebosch/vim-lsc-dart'
 Plugin 'hankchiutw/flutter-reload.vim'
 
-" Dart syntax high lighter and hot reload
+" Dart syntax highlighter
 Plugin 'dart-lang/dart-vim-plugin'
 
 " Web dev code formatter
@@ -93,7 +93,6 @@ Plugin 'prettier/vim-prettier'
 " React TypeScript plugins
 Plugin 'leafgarland/typescript-vim'
 Plugin 'peitalin/vim-jsx-typescript'
-Plugin 'chemzqm/vim-jsx-improve'
 
 " Swift syntax highlighting
 Plugin 'keith/swift.vim'
