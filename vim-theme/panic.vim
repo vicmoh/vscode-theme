@@ -133,6 +133,11 @@ hi vimHiCtermFgBg ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE
 hi vimHiGuiFgBg ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE
 " }}}
 
+" Bad spelling style
+hi clear SpellBad
+hi Error cterm=underline ctermbg=NONE ctermfg=210 gui=undercurl guibg=NONE guifg=#F44336
+hi SpellBad cterm=underline ctermbg=NONE gui=undercurl guibg=NONE
+hi SpellCap cterm=underline ctermbg=NONE ctermfg=117 gui=undercurl guibg=NONE guifg=#87ceeb
 
 "
 "cygwin has an annoying behavior where it resets background to light

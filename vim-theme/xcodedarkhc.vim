@@ -423,8 +423,8 @@ if s:t_Co >= 256
   hi StatusLineNC ctermfg=102 ctermbg=237 cterm=NONE
   hi VertSplit ctermfg=237 ctermbg=237 cterm=NONE
   hi WildMenu ctermfg=231 ctermbg=26 cterm=NONE
-  hi IncSearch ctermfg=234 ctermbg=226 cterm=NONE
-  hi Search ctermfg=231 ctermbg=238 cterm=NONE
+  hi IncSearch ctermfg=234 ctermbg=51 cterm=NONE
+  hi Search ctermfg=234 ctermbg=226 cterm=NONE
   hi Visual ctermfg=NONE ctermbg=238 cterm=NONE
   hi DiffAdd ctermfg=159 ctermbg=235 cterm=NONE
   hi DiffChange ctermfg=215 ctermbg=NONE cterm=NONE
